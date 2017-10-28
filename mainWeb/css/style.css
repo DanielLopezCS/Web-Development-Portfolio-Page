@@ -1,0 +1,161 @@
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+.headerBorder{
+  border-width: 15px;
+  
+  border-style:ridge;
+
+}
+
+  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+.blueMe{
+  background-color:#255;
+}
+
+.pageOne{
+ 
+  background-color:white;
+  background-size:cover;
+  height:300px;
+}
+
+img:hover { 
+   background-color: #200;
+   opacity: .5;
+  
+}
+.centerMe{
+  margin-left:auto;
+  margin-right:auto;
+}
+.iconSize{
+  height:80px;
+  width:80px;
+}
+.contactSize{
+  height:50px;
+  width:50px;
+}
+.portfolioSize{
+  
+  height:290px;
+  width:550px;
+}
+
+p{
+font-family: Georgia, Times, "Times New Roman", serif;
+}
+#menu-container {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+#wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  height: 100px;
+  width: 150px;
+  margin-top: 10%;
+}
+.first-text {
+  font-size: 3rem;
+  position: relative;
+  opacity: 1;
+  margin-right:auto;
+  margin-left:auto;
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  color: gray;
+  text-align:center;
+  top:-45px;
+ 
+}
+
+.borderMe{
+
+ 
+ border-style:solid;
+
+}
+.second-text{
+ font-size: 2rem;
+ position: relative;
+ margin-right:auto;
+ margin-left:auto;
+ opacity: 1;
+ animation-name: fadeIn;
+ animation-duration: 3s;
+ color: gray;
+ text-align:center;
+  
+}
+hr.style18 { 
+  height: 30px; 
+  width:  450px;
+  border-style: solid; 
+  border-color: #255; 
+  border-width: 5px 0 0 0; 
+  border-radius: 20px; 
+} 
+.container {
+    position: relative;
+  
+}
+.cSharpPage{
+  background-color:white;
+  background-size:cover;
+  height:320px;
+}
+
+#headermenu {
+    display: flex;
+    justify-content: center; /* center ul horizontally */
+    align-items: center; /* center ul vertically (if necessary) */ 
+    width: 800px; 
+    height: 70px; 
+    margin-bottom: 10px;
+  
+}
+
+.portfolioIcon{
+    height:250px;
+    width:450px;
+    opacity:100%;
+}
+
+.readBackground{
+  color:white;
+  background-color:#28875d;
+  opacity:.5;
+}
